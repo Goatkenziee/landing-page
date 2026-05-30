@@ -1,7 +1,3 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  reactStrictMode: true,
-  swcMinify: true,
-};
+import { withTailwindCss } from 'next-plugin-tailwindcss';
 
-export default nextConfig;
+export default withTailwindCss({});
