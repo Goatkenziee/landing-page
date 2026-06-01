@@ -1,11 +1,17 @@
 import React from 'react';
+import Hero from './components/Hero';
+import Services from './components/Services';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 
-const HomePage = () => {
+const HomePage: React.FC = () => {
   return (
-    <main className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
-      <h1 className="text-4xl font-bold mb-4">Welcome to the Landing Page</h1>
-      <p className="text-lg">This is a simple landing page built with Next.js, Tailwind CSS, and TypeScript.</p>
-    </main>
+    <div className="bg-gray-900 text-white min-h-screen flex flex-col">
+      <Hero />
+      <Services />
+      <Contact />
+      <Footer />
+    </div>
   );
 };
 
