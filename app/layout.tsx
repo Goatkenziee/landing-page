@@ -1,9 +1,8 @@
-import React from 'react';
 import './globals.css';
 
 export const metadata = {
   title: 'Landing Page',
-  description: 'A simple and modern landing page',
+  description: 'A simple and modern landing page for showcasing personal or business information',
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
